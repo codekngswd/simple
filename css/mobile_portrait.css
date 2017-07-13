@@ -1,0 +1,53 @@
+/* Author: LeQuan Ly
+   Copyright: (C) 2017 codekngswd
+   
+   Main CSS file */
+
+.ui-icon-gear:after {
+	background-image: url("../images/icons/mobile/gear.png");
+	background-size: 18px 18px;
+}
+
+.ui-icon-github:after {
+	background-image: url("../images/icons/mobile/github.png");
+	background-size: 18px 18px;
+}
+
+.ui-icon-instagram:after {
+	background-image: url("../images/icons/mobile/instagram.png");
+	background-size: 18px 18px;
+}
+
+.ui-icon-email:after {
+	background-image: url("../images/icons/mobile/mail.png");
+	background-size: 18px 18px;
+}
+
+.ui-icon-paper:after {
+	background-image: url("../images/icons/mobile/paper.png");
+	background-size: 18px 18px;
+}
+
+.ui-page {
+	background: #000;
+	background-image: url("../images/wallpaper.jpg");
+	background-size: 100% 100%;
+}
+
+#toggle {
+	margin-left: 2%;
+}
+
+table {
+	display: none;
+	position: fixed;
+	bottom: 0%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+td {
+	padding-left: 6vw;
+	padding-right: 6vw;
+}

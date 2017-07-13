@@ -1,0 +1,3 @@
+function displayFooter() {
+	$("table").toggle();
+}
