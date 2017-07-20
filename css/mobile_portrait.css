@@ -1,7 +1,7 @@
 /* Author: LeQuan Ly
    Copyright: (C) 2017 codekngswd
    
-   Main CSS file */
+   Mobile CSS file */
 
 .ui-icon-gear:after {
 	background-image: url("../images/icons/mobile/gear.png");
@@ -29,7 +29,7 @@
 }
 
 .ui-page {
-	background: #000;
+	background-color: #eeeeee;
 	background-image: url("../images/wallpaper.jpg");
 	background-size: 100% 100%;
 }
@@ -50,4 +50,15 @@ table {
 td {
 	padding-left: 6vw;
 	padding-right: 6vw;
+}
+
+#footer	{
+	font-family: helvetica;
+	font-size: 4vw;
+	color: white;
+	position: fixed;
+	bottom: 0%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
 }
